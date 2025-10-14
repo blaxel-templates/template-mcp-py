@@ -1,4 +1,6 @@
 type = "function"
+
+[runtime]
 transport = "http-stream"
 
 [entrypoint]
