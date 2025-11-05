@@ -5,6 +5,6 @@ description = ""
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-  "blaxel[core,telemetry]==0.2.19",
+  "blaxel[core,telemetry]==0.2.22",
   "mcp[cli]>=1.16.0",
 ]
