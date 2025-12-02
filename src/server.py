@@ -10,8 +10,8 @@ from mcp.server.fastmcp import FastMCP
 # Does not work in Blaxel's playground
 # mcp = FastMCP(
 #     "GreetingServer"
-#     host=os.getenv('BL_SERVER_HOST', "0.0.0.0"),
-#     port=os.getenv('BL_SERVER_PORT', "80")
+#     host=os.getenv('HOST', "0.0.0.0"),
+#     port=os.getenv('PORT', "80")
 # )
 
 # Other configuration options:
@@ -19,8 +19,8 @@ from mcp.server.fastmcp import FastMCP
 mcp = FastMCP(
     "GreetingServer",
     stateless_http=True,
-    host=os.getenv('BL_SERVER_HOST', "0.0.0.0"),
-    port=os.getenv('BL_SERVER_PORT', "80")
+    host=os.getenv('HOST', "0.0.0.0"),
+    port=os.getenv('PORT', "80")
 )
 
 
