@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.14' and sys_platform == 'win32'",
@@ -51,7 +51,7 @@ wheels = [
 
 [[package]]
 name = "blaxel"
-version = "0.4.18"
+version = "0.4.20"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "attrs" },
@@ -67,9 +67,9 @@ dependencies = [
     { name = "tomli" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7e/76/63215ef89ee9ed2ec8726b7171a0ec60cf7bf69b606ebcea7ce85336c18f/blaxel-0.4.18.tar.gz", hash = "sha256:77f23b3b5771e0bfc512c94692c8d1b6d10845d7cac1ae24a66bedd08c25a146", size = 628412, upload-time = "2026-10-15T22:04:41.255Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c9/86/1ed026e0c5a87e54207562f5b91474c6c8604f0085163f4405447338272c/blaxel-0.4.20.tar.gz", hash = "sha256:a85130d83f2df2897fbce91bc3b819419d72746004f1a767c64d802e76ddc50f", size = 631496, upload-time = "2026-10-23T17:08:28.753Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/67/fb/8594a0377742f1918994f067261ad160b32d18ef9dff0912c9a063a4152c/blaxel-0.4.18-py3-none-any.whl", hash = "sha256:a6ed0c49798c21933e842cb9baba268a242bf7a4db6ecd411f48457f47933095", size = 896951, upload-time = "2026-10-15T22:04:39.267Z" },
+    { url = "https://files.pythonhosted.org/packages/cf/fc/f3e114d719286ef560cdb6a436cc29b2ad96b639bb920cef68075a485cc4/blaxel-0.4.20-py3-none-any.whl", hash = "sha256:543303e5b0cf881b455c132696e6cf67a9a9e7f0825a6d8695381b27a5a71cfb", size = 898304, upload-time = "2026-10-23T17:08:27.182Z" },
 ]
 
 [package.optional-dependencies]
@@ -789,10 +789,10 @@ resolution-markers = [
     "python_full_version < '3.13'",
 ]
 dependencies = [
-    { name = "annotated-types", marker = "python_full_version < '3.14'" },
-    { name = "pydantic-core", version = "2.33.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.14'" },
-    { name = "typing-extensions", marker = "python_full_version < '3.14'" },
-    { name = "typing-inspection", version = "0.4.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.14'" },
+    { name = "annotated-types" },
+    { name = "pydantic-core", version = "2.33.2", source = { registry = "https://pypi.org/simple" } },
+    { name = "typing-extensions" },
+    { name = "typing-inspection", version = "0.4.2", source = { registry = "https://pypi.org/simple" } },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/ff/5d/09a551ba512d7ca404d785072700d3f6727a02f6f3c24ecfd081c7cf0aa8/pydantic-2.11.9.tar.gz", hash = "sha256:6b8ffda597a14812a7975c90b82a8a2e777d9257aba3453f973acd3c032a18e2", size = 788495, upload-time = "2025-09-13T11:26:39.325Z" }
 wheels = [
@@ -808,10 +808,10 @@ resolution-markers = [
     "python_full_version >= '3.14' and sys_platform != 'win32'",
 ]
 dependencies = [
-    { name = "annotated-types", marker = "python_full_version >= '3.14'" },
-    { name = "pydantic-core", version = "2.50.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.14'" },
-    { name = "typing-extensions", marker = "python_full_version >= '3.14'" },
-    { name = "typing-inspection", version = "0.4.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.14'" },
+    { name = "annotated-types" },
+    { name = "pydantic-core", version = "2.50.1", source = { registry = "https://pypi.org/simple" } },
+    { name = "typing-extensions" },
+    { name = "typing-inspection", version = "0.4.4", source = { registry = "https://pypi.org/simple" } },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/7c/0b/8e10b2e693af8ec54346a14caf36221334775975a747c9ceaa3f8371d96d/pydantic-2.14.1.tar.gz", hash = "sha256:94f478203dd03404682a1ada216965651dd74b1d2d5ffd62e00e0837caab5c26", size = 900362, upload-time = "2026-10-11T18:37:55.396Z" }
 wheels = [
@@ -828,7 +828,7 @@ resolution-markers = [
     "python_full_version < '3.13'",
 ]
 dependencies = [
-    { name = "typing-extensions", marker = "python_full_version < '3.14'" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/ad/88/5f2260bdfae97aabf98f1778d43f69574390ad787afb646292a638c923d4/pydantic_core-2.33.2.tar.gz", hash = "sha256:7cb8bc3605c29176e1b105350d2e6474142d7c1bd1d9327c4a9bdb46bf827acc", size = 435195, upload-time = "2025-04-23T18:33:52.104Z" }
 wheels = [
@@ -874,7 +874,7 @@ resolution-markers = [
     "python_full_version >= '3.14' and sys_platform != 'win32'",
 ]
 dependencies = [
-    { name = "typing-extensions", marker = "python_full_version >= '3.14'" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/a6/24/af4ec4be49fbc810f35b0bdcacc3d433b56bbfa469fd3bfd4ae116cd9bf1/pydantic_core-2.50.1.tar.gz", hash = "sha256:e50d7b94baac6c7d09927fa5ca5800a0c7ee5015c7fcff65beb3a1931b5a6e09", size = 513515, upload-time = "2026-10-11T18:35:44.82Z" }
 wheels = [
@@ -1300,7 +1300,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "blaxel", extras = ["core", "telemetry"], specifier = "==0.4.18" },
+    { name = "blaxel", extras = ["core", "telemetry"], specifier = "==0.4.20" },
     { name = "mcp", extras = ["cli"], specifier = ">=1.28.1,<2" },
 ]
 
@@ -1391,7 +1391,7 @@ resolution-markers = [
     "python_full_version < '3.13'",
 ]
 dependencies = [
-    { name = "typing-extensions", marker = "python_full_version < '3.14'" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/55/e3/70399cb7dd41c10ac53367ae42139cf4b1ca5f36bb3dc6c9d33acdb43655/typing_inspection-0.4.2.tar.gz", hash = "sha256:ba561c48a67c5958007083d386c3295464928b01faa735ab8547c5692e87f464", size = 75949, upload-time = "2025-10-01T02:14:41.687Z" }
 wheels = [
@@ -1407,7 +1407,7 @@ resolution-markers = [
     "python_full_version >= '3.14' and sys_platform != 'win32'",
 ]
 dependencies = [
-    { name = "typing-extensions", marker = "python_full_version >= '3.14'" },
+    { name = "typing-extensions" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/a3/26/b09b8010994eccc3c09092e6b34058f36a460eea2d4c3e8b910c695975a0/typing_inspection-0.4.4.tar.gz", hash = "sha256:547274fa6b0a561ccf549cc9524b999a578e737d015d8709d021f9d0d13bea47", size = 76928, upload-time = "2026-08-12T12:37:25.997Z" }
 wheels = [
